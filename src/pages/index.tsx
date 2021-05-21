@@ -13,6 +13,7 @@ const Container = styled.div`
   flex-direction: column;
   background: #4cb9bc;
   font-family: 'Pacifico', cursive;
+  overflow: hidden;
 `;
 
 const Circle = styled.div`
