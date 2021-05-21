@@ -40,6 +40,15 @@ module.exports = {
               quality: 90,
               linkImagesToOriginal: false
             }
+          },
+          {
+            resolve: `gatsby-plugin-google-fonts`,
+            options: {
+              fonts: [
+                `Pacifico\:400,700`,
+              ],
+              display: 'swap'
+            }
           }
         ]
       }
