@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import styled from '@emotion/styled';
+import IndexLayout from '../layouts/index';
 
 const Container = styled.div`
   position: absolute;
@@ -51,12 +52,14 @@ const Small = styled.div`
 `;
 
 const IndexPage = () => (
-  <Container>
-    <Circle>
-      <Text>Cardano Natives</Text>
-      <Small>Coming June 2021</Small>
-    </Circle>
-  </Container>
+  <IndexLayout>
+    <Container>
+      <Circle>
+        <Text>Cardano Natives</Text>
+        <Small>Coming June 2021</Small>
+      </Circle>
+    </Container>
+  </IndexLayout>
 )
 
 export default IndexPage
